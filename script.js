@@ -1,6 +1,6 @@
 var nav = new DayPilot.Navigator("nav", {
     showMonths: 1,
-    selectMode: "Week",
+    selectMode: "Day",
     locale : "ru-ru",
     freeHandSelectionEnabled: true,
     onTimeRangeSelected: function (args) {
@@ -37,7 +37,7 @@ dp.init();
 
 var e = new DayPilot.Event({
     start: DayPilot.Date.today().addHours(12),
-    end: DayPilot.Date.today().addHours(15),
+    end: DayPilot.Date.today().addHours(12),
     id: DayPilot.guid(),
     text: "Special event"
 });

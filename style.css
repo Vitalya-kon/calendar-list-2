@@ -1,4 +1,76 @@
 .calendar_list{
-    display: flex;
-    gap: 10px;
+    display: flex !important;
+    gap: 10px !important;
+}
+#dp{
+    border-radius: 10px !important;
+    padding: 5px !important;
+    border: 2px solid  rgba(162,193,211,0.7176995798319328) !important;
+}
+#dp > div:nth-child(2){
+    height: 80vh !important;
+}
+#nav{
+    border-radius: 10px !important;
+    border: 2px solid  rgba(162,193,211,0.7176995798319328) !important;
+    padding: 5px !important;
+    color:#333b3f !important;
+}
+#nav > div.navigator_default_month > div.navigator_default_title{
+    background: rgb(227, 242, 255) !important;
+}
+#nav > div.navigator_default_month > div.navigator_default_titleright,
+#nav > div.navigator_default_month > div.navigator_default_titleleft{
+    background-color: #6eaacc !important;
+    color: whitesmoke !important;
+}
+.navigator_default_weekend{
+    background-color: rgb(227, 242, 255) !important;
+}
+.navigator_default_select{
+    background: #eb4c4c !important;
+}
+#dp > div:nth-child(1) > table > tbody > tr > td:nth-child(2) > table > tbody > tr > td > div > div,
+#dp > div:nth-child(1) > table > tbody > tr > td:nth-child(3) > div > div,
+.calendar_default_corner_inner {
+    background: rgb(227, 242, 255) !important;
+}
+.calendar_default_cell_inner,.calendar_default_cell_business .calendar_default_cell_inner {
+    background: #f2faff !important;
+}
+
+.calendar_default_rowheader_inner{
+    background-color: aliceblue !important;
+}
+.calendar_default_event_inner{
+    width: fit-content !important;
+}
+.calendar_default_shadow_inner {
+    background: #589bc2 !important;
+}
+#dp > div:nth-child(2)::-webkit-scrollbar {
+  width: 5px !important;               /* ширина scrollbar */
+}
+#dp > div:nth-child(2)::-webkit-scrollbar-track {
+  background: #9ccae5 !important;        /* цвет дорожки */
+}
+#dp > div:nth-child(2)::-webkit-scrollbar-thumb {
+  background-color: rgb(1, 1, 48) !important;    /* цвет плашки */
+  border-radius: 20px !important;       /* закругления плашки */
+  border: 3px solid #3381ae !important;  /* padding вокруг плашки */
+}
+.calendar_default_colheader_inner {
+    border-bottom: 1px solid #5a5a5a !important;
+    border-right: 1px solid #5a5a5a !important;
+}
+.calendar_default_cornerright_inner{
+    border-bottom: 1px solid #5a5a5a !important;
+}
+.calendar_default_corner_inner{
+    border-bottom: 1px solid #5a5a5a !important;
+    border-right: 1px solid #5a5a5a !important;
+}
+.calendar_default_rowheader_inner{
+    border-bottom: 1px solid #5a5a5a !important;
+    border-right: 1px solid #5a5a5a !important;
 }
