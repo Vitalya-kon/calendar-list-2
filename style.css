@@ -4,7 +4,7 @@
 }
 @media (max-width:650px) {
     .calendar_list{
-        flex-wrap: wrap;
+        flex-wrap: wrap !important;
     }
 }
 #dp{
