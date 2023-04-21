@@ -2,6 +2,11 @@
     display: flex !important;
     gap: 10px !important;
 }
+@media (max-width:650px) {
+    .calendar_list{
+        flex-wrap: wrap;
+    }
+}
 #dp{
     border-radius: 10px !important;
     padding: 5px !important;
